@@ -1,0 +1,17 @@
+#!/bin/sh
+
+#export PERLBREW_ROOT=/home/dameninngenn/perl5/perlbrew
+#source $PERLBREW_ROOT/etc/bashrc
+#export PATH="$PERLBREW_ROOT/bin:$PATH"
+#export PERL5LIB=/home/dameninngenn/public/Feilong/lib
+
+exec \
+setuidgid dameninngenn
+#setuidgid dameninngenn \
+#/home/dameninngenn/perl5/perlbrew/perls/perl-5.13.9/bin/start_server \
+#--port=5000 \
+#--interval=5 \
+#-- /home/dameninngenn/perl5/perlbrew/perls/perl-5.13.9/bin/starman \
+#--disable-keepalive \
+#--preload-app \
+#/home/dameninngenn/public/Feilong/etc/pc.psgi 2>&1

@@ -1,0 +1,13 @@
+[% INCLUDE 'header.inc' %]
+
+      <div class="content">
+          <h2>Hello</h2>
+          <p>┗|┳|┛＜ウオオオオオオ！！！！</p>
+      </div>
+
+[% MACRO footer_content_block  BLOCK -%]
+[% END -%]
+
+[% INCLUDE 'footer.inc' WITH
+    footer_content = footer_content_block()
+%]
